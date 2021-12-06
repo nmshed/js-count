@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <marquee behavior="alternate" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+        <p>character counting | character counting | character counting</p>
+    </marquee>
+    
+    <div class="main">
+        <div class="main-container">
+            <h2>character count</h2>
+            <h2><span id="remain"></span></h2>
+            <textarea placeholder="please leave your message" id="inputArea" onkeyup="totalChars();RemainChars();"  ></textarea>
+            <p>Input characters : <span id="input"></span></p>            
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/custom.js"></script>
+    
+</body>
+</html>

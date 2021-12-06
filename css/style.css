@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+ /*=================
+ common css end
+ ===================*/
+ .main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-container{
+    width: 600px;
+    padding: 10px;
+    border: 2px solid teal;
+    position: relative;
+}
+h2{
+     color: #408aa0;
+     font-size: 48px;
+     text-transform: capitalize;
+     
+}
+h2 span{
+    color: rgb(194, 118, 118);
+    font-size: 60px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+    outline: none;
+    padding: 20px;
+}
+
+p{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: violet;
+}
+
+p span{
+    color: #556d24;
+    font-size: 40px;
+}
+
+
